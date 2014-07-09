@@ -12,6 +12,12 @@ adb logcat -v time -b events
 
 adb logcat -v time -b radio
 
+## Application
+
+adb install <Apk File>
+
+adb uninstall <Package Name>
+
 
 ## dumpsys
 
