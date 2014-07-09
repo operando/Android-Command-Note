@@ -12,3 +12,20 @@ adb logcat -v time -b events
 
 adb logcat -v time -b radio
 
+
+## dumpsys
+
+## Root
+
+adb root
+
+## Other
+
+adb reboot
+
+adb pull <Unit Path> <Local Path>
+
+adb shell input keyevent <event key>
+
+adb shell input text <string>
+
