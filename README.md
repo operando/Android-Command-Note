@@ -15,9 +15,9 @@ adb logcat -v time -b radio
 
 ## Application
 
-adb install <Apk File>
+adb install [Apk File]
 
-adb uninstall <Package Name>
+adb uninstall [Package Name]
 
 
 ## dumpsys
@@ -29,7 +29,7 @@ adb root
 
 ## Key Event
 
-#### adb shell input keyevent <event key>
+#### adb shell input keyevent [event key]
 
 adb shell input keyevent KEYCODE_HOME
 
@@ -46,16 +46,16 @@ adb shell dumpsys alarm
 
 adb shell getproc
 
-adb shell getprop <property name>
+adb shell getprop [property name]
 
-adb shell setprop <property name> <property value>
+adb shell setprop [property name] [property value]
 
 
 ## Other
 
 adb reboot
 
-adb pull <Unit Path> <Local Path>
+adb pull [Unit Path] [Local Path]
 
-adb shell input text <string>
+adb shell input text [string]
 
