@@ -42,6 +42,14 @@ adb shell input keyevent KEYCODE_MENU
 
 adb shell dumpsys alarm
 
+## System properties
+
+adb shell getproc
+
+adb shell getprop <property name>
+
+adb shell setprop <property name> <property value>
+
 
 ## Other
 
