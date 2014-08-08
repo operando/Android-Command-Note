@@ -33,6 +33,10 @@ adb shell pm list packages -3
 
 ## dumpsys
 
+adb shell dumpsys
+
+adb shell dumpsys [system service]
+
 ## Root
 
 adb root
