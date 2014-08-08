@@ -19,6 +19,17 @@ adb install [Apk File]
 
 adb uninstall [Package Name]
 
+## pm - PackageManager
+
+adb shell pm list packages
+
+adb shell pm list packages -e
+
+adb shell pm list packages -d
+
+adb shell pm list packages -s
+
+adb shell pm list packages -3
 
 ## dumpsys
 
