@@ -85,6 +85,8 @@ adb shell date -s $(date +"%Y%m%d.%H%M%S")
 
 adb reboot
 
+adb shell reboot recovery
+
 adb pull [Unit Path] [Local Path]
 
 adb shell input text [string]
