@@ -35,7 +35,11 @@ adb shell pm list packages -3
 
 adb shell dumpsys
 
+adb shell dumpsys | grep "DUMP OF SERVICE"
+
 adb shell dumpsys [system service]
+
+adb shell dumpsys activity provider
 
 ## Root
 
@@ -104,4 +108,3 @@ adb shell reboot recovery
 adb pull [Unit Path] [Local Path]
 
 adb shell input text [string]
-
