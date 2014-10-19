@@ -81,6 +81,20 @@ adb shell date -s %date:~0,4%%date:~5,2%%date:~8,2%.%time:~0,2%%time:~3,2%%time:
 
 adb shell date -s $(date +"%Y%m%d.%H%M%S")
 
+## Lint
+
+lint [application directory] --html [file name].html
+
+lint [application directory] --simplehtml [file name].html
+
+### Windows
+
+lint [application directory] --fullpath --quiet --html lint_%date:~0,4%%date:~5,2%%date:~8,2%-%time:~0,2%%time:~3,2%%time:~6,2%.html
+
+### Linux or Mac
+
+lint [application directory] --fullpath --quiet --html lint_$(date +"%Y%m%d-%H%M%S").html
+
 ## Other
 
 adb reboot
