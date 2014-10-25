@@ -12,6 +12,14 @@ adb logcat -v time -b events
 
 adb logcat -v time -b radio
 
+## log
+
+adb shell log [message]
+
+adb shell log -t [tag name] [message]
+
+adb shell log -p [log level] [message]
+
 
 ## Application
 
@@ -38,6 +46,10 @@ adb shell dumpsys
 adb shell dumpsys | grep "DUMP OF SERVICE"
 
 adb shell dumpsys [system service]
+
+adb shell dumpsys service [service name]
+
+adb shell dumpsys activity activities
 
 adb shell dumpsys activity provider
 
@@ -75,7 +87,9 @@ adb shell date -s YYYYMMDD.hhmmss
 
 YYYYMMDD:年月日  hhmmss:時分秒
 
-要Root？？
+**要Root**
+
+[【Android】adb shell date は System User or radio Groupじゃないと反映されない](http://qiita.com/operandoOS/items/61bbbed2568e27a6ee4e)
 
 ### Windows
 
