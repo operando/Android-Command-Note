@@ -51,7 +51,13 @@ adb shell dumpsys service [service name]
 
 adb shell dumpsys activity activities
 
+adb shell dumpsys activity all
+
 adb shell dumpsys activity provider
+
+adb shell dumpsys activity provider all
+
+adb shell dumpsys gfxinfo
 
 ## Root
 
@@ -113,6 +119,13 @@ lint [application directory] --fullpath --quiet --html lint_%date:~0,4%%date:~5,
 
 lint [application directory] --fullpath --quiet --html lint_$(date +"%Y%m%d-%H%M%S").html
 
+## Kernal
+
+adb shell dmesg
+
+adb shell cat /proc/kmsg
+
+
 ## Other
 
 adb reboot
@@ -120,5 +133,7 @@ adb reboot
 adb shell reboot recovery
 
 adb pull [Unit Path] [Local Path]
+
+adb push [File Path] [Unit Path]
 
 adb shell input text [string]
