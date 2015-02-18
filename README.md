@@ -109,6 +109,14 @@ adb shell date -s %date:~0,4%%date:~5,2%%date:~8,2%.%time:~0,2%%time:~3,2%%time:
 
 adb shell date -s $(date +"%Y%m%d.%H%M%S")
 
+## Dropbox
+
+adb shell dumpsys dropbox
+
+adb shell dumpsys dropbox --print
+
+adb shell dumpsys dropbox --file
+
 ## Lint
 
 lint [application directory] --html [file name].html
