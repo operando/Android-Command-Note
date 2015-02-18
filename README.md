@@ -20,6 +20,10 @@ adb shell log -t [tag name] [message]
 
 adb shell log -p [log level] [message]
 
+## Bugreport
+
+adb  bugreport
+
 
 ## Application
 
