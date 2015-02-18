@@ -55,6 +55,8 @@ adb shell dumpsys service [service name]
 
 adb shell dumpsys activity activities
 
+adb shell dumpsys activity top
+
 adb shell dumpsys activity all
 
 adb shell dumpsys activity provider
