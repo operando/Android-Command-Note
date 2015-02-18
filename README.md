@@ -149,3 +149,5 @@ adb pull [Unit Path] [Local Path]
 adb push [File Path] [Unit Path]
 
 adb shell input text [string]
+
+adb jdwp
