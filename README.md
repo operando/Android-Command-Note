@@ -142,6 +142,8 @@ adb shell cat /proc/kmsg
 
 ## Other
 
+adb shell printenv
+
 adb reboot
 
 adb shell reboot recovery
