@@ -87,7 +87,7 @@ adb shell dumpsys alarm
 
 ## System properties
 
-adb shell getproc
+adb shell getprop
 
 adb shell getprop [property name]
 
