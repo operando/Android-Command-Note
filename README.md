@@ -139,6 +139,14 @@ adb shell dmesg
 
 adb shell cat /proc/kmsg
 
+## Permission
+
+adb shell pm list permissions -d -g
+
+adb shell pm grant [permission.name] ...
+
+adb shell pm revoke [permission.name] ...
+
 
 ## Other
 
