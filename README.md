@@ -65,6 +65,8 @@ adb shell dumpsys activity provider all
 
 adb shell dumpsys gfxinfo
 
+adb shell dumpsys jobscheduler
+
 ## Root
 
 adb root
