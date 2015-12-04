@@ -12,6 +12,13 @@ adb logcat -v time -b events
 
 adb logcat -v time -b radio
 
+adb shell logcat -b all
+
+### Android 6.0〜
+
+adb shell logcat -v color
+
+
 ## log
 
 adb shell log [message]
