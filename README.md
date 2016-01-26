@@ -54,7 +54,7 @@ adb shell pm list packages -3
 
 adb shell dumpsys
 
-adb shell dumpsys -l
+[adb shell dumpsys -l](./outputs/dumpsys-l.md)
 
 adb shell dumpsys [system service]
 
