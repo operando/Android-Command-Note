@@ -102,6 +102,28 @@ adb shell getprop [property name]
 
 adb shell setprop [property name] [property value]
 
+## screenrecord
+
+adb shell screenrecord /sdcard/test.mp4
+
+adb shell screenrecord --size 720x1080 /sdcard/test.mp4
+
+adb shell screenrecord --bit-rate 10000000 /sdcard/test.mp4
+
+adb shell screenrecord --time-limit 120 /sdcard/test.mp4
+
+adb shell screenrecord --bugreport /sdcard/test.mp4
+
+
+### "unofficial" options
+
+adb shell screenrecord --rotate /sdcard/test.mp4
+
+adb shell screenrecord --output-format raw-frames /sdcard/test
+
+[screenrecordの"unofficial" optionsは夢がいっぱいだった](http://qiita.com/operandoOS/items/aced3c76cdb4a738be53)
+
+
 ## Date
 
 adb shell date -s YYYYMMDD.hhmmss
