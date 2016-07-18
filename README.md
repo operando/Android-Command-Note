@@ -196,3 +196,5 @@ adb push [File Path] [Unit Path]
 adb shell input text [string]
 
 adb jdwp
+
+adb shell am start -a android.settings.WEBVIEW_SETTINGS
