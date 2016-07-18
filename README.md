@@ -74,6 +74,8 @@ adb shell dumpsys gfxinfo
 
 adb shell dumpsys jobscheduler
 
+adb shell dumpsys netpolicy
+
 ## Root
 
 adb root
