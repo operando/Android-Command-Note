@@ -14,9 +14,19 @@ adb logcat -v time -b radio
 
 adb shell logcat -b all
 
+adb logcat -B
+
+
 ### Android 6.0〜
 
 adb shell logcat -v color
+
+
+### Android 7.0〜
+
+adb logcat -e android
+
+adb logcat -m 100
 
 
 ## log
