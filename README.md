@@ -144,7 +144,7 @@ adb shell am hang
 
 ## アプリケーションのデータとキャッシュを残したままアンインストールする
 
-* adb shell cmd package uninstall -k [Package Name]
+adb shell cmd package uninstall -k [Package Name]
 
 
 ## System properties
